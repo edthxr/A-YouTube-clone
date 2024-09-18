@@ -29,6 +29,7 @@ body{
 
 }
 
+
 /* สำหรับเบราว์เซอร์ Chrome, Edge, Safari */
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
