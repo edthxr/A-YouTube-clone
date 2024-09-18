@@ -130,7 +130,7 @@ export default function Home() {
 
           {/* Action Buttons */}
           <div className="flex flex-col lg:flex-row justify-between items-center my-2">
-            <div className="flex items-center space-x-4 mb-2 lg:mb-0">
+          <div className="flex items-center mb-2 lg:mb-0 gap-3 sm:gap-0">
               <img
                 src="/photo/channels4_profile.jpg"
                 alt="channel profile"
@@ -145,7 +145,7 @@ export default function Home() {
               </button>
             </div>
 
-            <div className="flex flex-col lg:flex-row lg:space-x-4 space-y-2 lg:space-y-0 items-center text-gray-400 text-sm">
+            <div className="flex flex-col lg:flex-row  lg:space-x-4 space-y-2 lg:space-y-0 items-center text-gray-400 text-sm">
               {/* Action Buttons */}
               <div className="flex flex-wrap lg:flex-nowrap space-x-2 lg:space-x-4 items-center text-gray-400 text-sm">
                 <div className="flex items-center space-x-2 cursor-pointer py-1 px-3 bg-[#272727] rounded-full text-white/90 hover:bg-[#303030] transition-all duration-200">
